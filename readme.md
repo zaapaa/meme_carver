@@ -6,7 +6,7 @@ Meme Carver is a simple python script with GUI or CLI interfaces that uses seam 
 
 Download the source from GitHub, install requirements and run.
 
-The GUI interface offers a more user-friendly way to use the carver. It allows you to select a input gif file, adjust various settings, and generate an output file.
+The GUI interface offers a more user-friendly way to use the carver. It allows you to select a input file, which can be a normal image or a GIF file, adjust various settings, and generate an output file.
 
 The CLI interface is also available for use. It offers a few hardcoded options and is primarily intended for use by developers who want to automate the carver or use it in a script.
 The CLI interface can be used by running the script with the path to an input image file as an argument.
@@ -43,7 +43,7 @@ Specify a scale factor for the final image. This can be a single floating point 
 Specify a custom resolution for the final image. This option takes a comma-separated pair of integers, where the first integer specifies the width and the second integer specifies the height.
 
 ### loop
-Repeat the frames in reverse order at the end of the animation to create a seamless loop
+Repeat the frames in reverse order at the end of the animation to create a seamless loop.
 
 ### save_frames
 This option will save each frame of the animation as a separate gif file. The frames will be saved in a folder with the same name as the output file, with the frames named by their order in the animation. This can be useful for debugging or creating animations that need to be edited in a different program. Note that this option can be quite slow and may increase the total size of the output, so it is generally only used for debugging or special cases.
