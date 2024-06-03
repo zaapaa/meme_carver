@@ -1,0 +1,4 @@
+numpy==1.25.2
+Pillow==10.3.0
+seam_carving==1.1.0
+skimage==0.0
