@@ -4,7 +4,7 @@ Meme Carver is a simple python script with GUI or CLI interfaces that uses seam 
 
 ## Usage
 
-Download a release or clone the source from GitHub
+Download the source from GitHub, install requirements and run.
 
 The GUI interface offers a more user-friendly way to use the carver. It allows you to select a input gif file, adjust various settings, and generate an output file.
 
