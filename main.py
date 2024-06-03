@@ -1,22 +1,13 @@
 import sys
-# from numpy import np.ndarray, uint8, random, asarray, arange
 import numpy as np
-# from seam_carving import resize as seam_carving_resize
 import seam_carving
-# from os import getcwd, path, mkdir
 import os
-# from skimage.io import imread, imsave
-# from skimage.transform import resize
-# from skimage.util import img_as_ubyte, img_as_float
 from skimage import io, transform, util
 from PIL import Image
 from PIL import ImageTk
-# from math import cos, pi
 import math
 import tkinter.filedialog as tk_filedialog
-# from tkinter import Tk, StringVar, IntVar, DoubleVar, BooleanVar, Canvas, END, LEFT, RIGHT, NW, W, TOP
 import tkinter as tk
-# from tkinter.ttk import Frame, Label, Entry, Button, Checkbutton, Radiobutton
 import tkinter.ttk as ttk
 from idlelib.tooltip import Hovertip
 from typing import List, Tuple
