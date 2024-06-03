@@ -470,12 +470,13 @@ def gui():
             shape = shape_scale
         elif shape_options.get() == "Resolution":
             shape = shape_resolution
-
-        imgs = process_frames(path, min_scale.get(), use_prev.get(), int(frames.get()), int(method.get()), shape, shape_options.get(
-        ), loop.get(), save_frames.get(), int(gif_interval_msec.get()), int(size_limit_kb.get()))
-
         interval = gif_interval_msec.get() if gif_interval_msec.get(
         ) != 0 else input_gif_interval_msec
+
+        imgs = process_frames(path, min_scale.get(), use_prev.get(), int(frames.get()), int(method.get()), shape, shape_options.get(
+        ), loop.get(), save_frames.get(), interval, int(size_limit_kb.get()))
+
+        stop_gif("output")
         show_image(output_canvas, imgs, 0, interval, True)
 
     submit_button = ttk.Button(frame_left, text="Carve!", command=submit)
