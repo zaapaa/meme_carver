@@ -52,4 +52,4 @@ This option will save each frame of the animation as a separate gif file. The fr
 Specify the time in milliseconds between each frame in the final animation. For input GIFs, a value of 0 will preserve the original frame interval
 
 ### size_limit_kb
-
+Not implemented
